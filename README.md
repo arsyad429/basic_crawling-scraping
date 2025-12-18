@@ -40,9 +40,6 @@ The tutorials are structured **step by step from basic to advanced**, including:
 * Using Selenium WebDriver
 * Automatically opening websites
 * Locating HTML elements using:
-
-  * `By.ID`
-  * `By.CLASS_NAME`
   * `By.CSS_SELECTOR`
 * Difference between `find_element` and `find_elements`
 
