@@ -1,0 +1,14 @@
+[project]
+name = "tutorselenium"
+version = "0.1.0"
+description = "Basic web crawling and web scraping tutorial using Selenium and BeautifulSoup"
+readme = "README.md"
+requires-python = ">=3.10"
+
+dependencies = [
+    "selenium",
+    "beautifulsoup4",
+    "requests",
+    "pandas",
+    "jupytext"
+]
