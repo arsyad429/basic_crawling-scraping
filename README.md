@@ -154,12 +154,16 @@ git clone https://github.com/arsyad429/basic_crawling-scraping.git
 cd basic_crawling-scraping
 ```
 
-### 3️⃣ Install Dependencies
+### 3️⃣ Install Dependencies and Add the Jupyter kernel
 
 Run the following command to create a virtual environment and install all required dependencies:
 
 ```bash
 uv sync
+```
+```bash
+uv pip install ipykernel
+python -m ipykernel install --user --name tutorselenium --display-name "Python (tutorselenium)"
 ```
 
 > This command reads `pyproject.toml` and `uv.lock` to ensure everyone uses the **same dependency versions**.
