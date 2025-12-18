@@ -40,6 +40,9 @@ The tutorials are structured **step by step from basic to advanced**, including:
 * Using Selenium WebDriver
 * Automatically opening websites
 * Locating HTML elements using:
+
+  * `By.ID`
+  * `By.CLASS_NAME`
   * `By.CSS_SELECTOR`
 * Difference between `find_element` and `find_elements`
 
@@ -134,3 +137,91 @@ After completing the tutorials in this repository, you should be able to:
 This repository was created as a **learning resource from basic concepts to real-world practice**.
 
 Happy learning and enjoy exploring web scraping 🚀
+
+---
+
+## ⚙️ Environment Setup (uv)
+
+This project uses **uv** for fast and reproducible Python dependency management.
+
+### 1️⃣ Install uv
+
+```bash
+pip install uv
+```
+
+### 2️⃣ Clone the Repository
+
+```bash
+git clone https://github.com/arsyad429/basic_crawling-scraping.git
+cd basic_crawling-scraping
+```
+
+### 3️⃣ Install Dependencies
+
+Run the following command to create a virtual environment and install all required dependencies:
+
+```bash
+uv sync
+```
+
+> This command reads `pyproject.toml` and `uv.lock` to ensure everyone uses the **same dependency versions**.
+
+### 4️⃣ Activate the Virtual Environment (Optional)
+
+```bash
+.venv\Scripts\activate   # Windows
+source .venv/bin/activate    # macOS / Linux
+```
+
+---
+
+## ▶️ How to Run the Scripts
+
+Example usage:
+
+```bash
+python SeleniumSimpleScraping.py
+python SeleniumCrawlingAndScraping.py
+python SeleniumCreateImageDataset.py
+```
+
+Make sure **Chrome WebDriver** is installed and compatible with your Chrome version.
+
+---
+
+## 📊 Dataset Output
+
+When running image scraping scripts:
+
+* Images will be saved to a local directory (e.g. `sharkImages/`)
+* A CSV file will be generated containing:
+
+  * Image path
+  * Image label
+
+This dataset structure is suitable for:
+
+* Machine Learning pipelines
+* Computer Vision tasks (classification, detection, etc.)
+
+---
+
+## ⚠️ Disclaimer
+
+This repository is intended **strictly for educational purposes**.
+
+* Do not use it for scraping private or restricted data
+* Always respect website policies and legal regulations
+* The author is not responsible for misuse of this code
+
+---
+
+## ⭐ Support
+
+If this repository helps you learn web crawling and scraping:
+
+* Give it a ⭐ on GitHub
+* Share it with others who are learning Python & Data Science
+
+Happy coding 🚀
