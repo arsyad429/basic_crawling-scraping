@@ -177,16 +177,6 @@ source .venv/bin/activate    # macOS / Linux
 
 ---
 
-## ▶️ How to Run the Scripts
-
-Example usage:
-
-```bash
-python SeleniumSimpleScraping.py
-python SeleniumCrawlingAndScraping.py
-python SeleniumCreateImageDataset.py
-```
-
 Make sure **Chrome WebDriver** is installed and compatible with your Chrome version.
 
 ---
