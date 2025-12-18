@@ -76,25 +76,25 @@ The resulting dataset is **ready to be used for Machine Learning / Deep Learning
 
 Some of the main files in this repository:
 
-* `SeleniumSimpleScraping.py`
+* `SeleniumSimpleScraping.ipynb`
   → Simple scraping example using Selenium
 
-* `SeleniumAksesWebDriver.py`
+* `SeleniumAksesWebDriver.ipynb`
   → How to access and use Selenium WebDriver
 
-* `SeleniumCrawlingAndScraping.py`
+* `SeleniumCrawlingAndScraping.ipynb`
   → Crawling and scraping dynamic web pages
 
-* `SeleniumCrawlingAndScrapingHeadlessMode.py`
+* `SeleniumCrawlingAndScrapingHeadlessMode.ipynb`
   → Crawling using Selenium Headless Mode
 
-* `SeleniumCrawlingAndScrapingImage.py`
+* `SeleniumCrawlingAndScrapingImage.ipynb`
   → Image scraping and downloading from websites
 
-* `SeleniumCrawlingAndScrapingImageHeadlessMode.py`
+* `SeleniumCrawlingAndScrapingImageHeadlessMode.ipynb`
   → Image downloading using headless mode
 
-* `SeleniumCreateImageDataset.py`
+* `SeleniumCreateImageDataset.ipynb`
   → Case study: building an **image dataset** from crawling and scraping results
 
 ---
