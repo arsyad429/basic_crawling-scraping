@@ -164,6 +164,9 @@ uv sync
 ```bash
 uv add --dev ipykernel
 ```
+```bash
+python -m ipykernel install --user --name basic_crawling --display-name "Python (tutor selenium)"
+```
 
 > This command reads `pyproject.toml` and `uv.lock` to ensure everyone uses the **same dependency versions**.
 
