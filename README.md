@@ -162,8 +162,7 @@ Run the following command to create a virtual environment and install all requir
 uv sync
 ```
 ```bash
-uv pip install ipykernel
-python -m ipykernel install --user --name tutorselenium --display-name "Python (tutorselenium)"
+uv add --dev ipykernel
 ```
 
 > This command reads `pyproject.toml` and `uv.lock` to ensure everyone uses the **same dependency versions**.
